@@ -1,0 +1,37 @@
+/* WeatherInfo.module.css */
+.weatherInfoCards {
+  justify-content: space-between;
+}
+
+.weatherInfo {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  flex: 1;
+}
+
+.weatherDay {
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.weatherDay p {
+  margin: 0;
+}
+
+.weatherDay p:first-child {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}

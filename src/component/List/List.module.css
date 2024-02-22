@@ -1,0 +1,40 @@
+.cardsContainer {
+  width: 70%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  height: 150px;
+  width: 150px;
+  font-weight: 500;
+}
+
+.addButton:hover {
+  transform: scale(1.05);
+}
+
+.plusSymbol {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.asideData {
+  width: 30%;
+}
+.heading {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 20px 0;
+  color: rgb(0, 0, 0);
+}

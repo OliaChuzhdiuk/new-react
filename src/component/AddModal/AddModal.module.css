@@ -1,0 +1,44 @@
+.modal_content {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal_content h2 {
+  margin-bottom: 20px;
+}
+
+.modal_content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal_content select,
+.modal_content input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.modal_content button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.modal_content button:last-child {
+  margin-right: 0;
+  background-color: #f44336;
+}
